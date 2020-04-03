@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	color: red;
+}
+
+h1 {
+	font-family: 'uiashduashdaush', sans-serif
+}
+
+#intro{
+	background-color: aliceblue;
+}
+
+body form input[name="email"]{
+	color: cyan;
+}
