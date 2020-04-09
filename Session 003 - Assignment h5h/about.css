@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+  font-family: sans-serif;
+}
+
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem auto;
+	padding: 1rem;
+}
+
+h1{
+	margin: 1rem;
+	text-align: center;
+	color: rgb(34, 91, 200);
+}
+h2{
+	margin: 0 0 1rem 0;
+}
+
+div > div {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	align-items: baseline;
+}
+
+div img {
+	width: 50%;
+}
+
+
+/* about.css | file:///D:/Workspace/College/Web/Assignment%202/about.css */
+
+div img {
+  /* width: 50%; */
+  width: 30%;
+}
+
+div > div {
+  /* width: 40%; */
+  width: 30%;
+}
+
+div {
+  /* margin: 1rem auto; */
+  margin: 1rem;
+}

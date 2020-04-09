@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+  font-family: sans-serif;
+}
+
+
+header{
+	background: url('./images/hero_2.jpg') no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Element | file:///D:/Workspace/College/Web/Assignment%202/index.html# */
+
+body > header:nth-child(1) {
+  height: 80vh;
+  padding: 25% 20% 20% 20%;
+}
+
+/* index.css | file:///D:/Workspace/College/Web/Assignment%202/index.css */
+
+header {
+  /* justify-content: center; */
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20%;
+  position: relative;
+}
+
+/* Element | file:///D:/Workspace/College/Web/Assignment%202/index.html# */
+
+body > header:nth-child(1) > nav:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: solid 1px #ffffff2b;
+}
+
+/* Inline #1 | file:///D:/Workspace/College/Web/Assignment%202/index.html# */
+
+nav a {
+  /* font-family: ''; */
+  display: inline-block;
+  margin: 1rem;
+  text-decoration: none;
+  font-family: Sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color: rgba(255,255,255,0.8);
+}
+
+button {
+  border: none;
+  color: white;
+  border-radius: 70px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+/* Element | file:///D:/Workspace/College/Web/Assignment%202/index.html# */
+
+body > header > div > h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Element | file:///D:/Workspace/College/Web/Assignment%202/index.html# */
+
+body > header:nth-child(1) > div:nth-child(2) {
+  text-align: center;
+}
+
+
+body > header:nth-child(1) > button:nth-child(3) {
+  background: rgb(34, 91, 200);
+}
+
+
+iframe{
+	width: 100%;
+	height: 100vh;
+}

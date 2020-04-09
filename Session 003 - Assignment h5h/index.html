@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href='./index.css' rel='stylesheet'>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href='#'>Home</a>
+			<a href='#' onclick='fetchAbout()'>About</a>
+			<a href='#'>Portfolio</a>
+		</nav>
+		<div>
+			<h1>Welcome!</h1>
+			<p>
+				It is a long established fact that a reader will.
+			</p>
+		</div>
+		<button>Get in Touch</button>
+	</header>
+	<div id='div2'>
+
+	</div>
+
+</body>
+<script>
+	let fetched = false
+	function fetchAbout(){
+		if(fetched) return;
+
+		const aboutIframe = document.createElement('iframe')
+		aboutIframe.setAttribute('src', 'about.html')
+
+		document.getElementById('div2').appendChild(aboutIframe)
+		aboutIframe.scrollIntoView({ behavior: 'smooth'});
+
+		fetched = true;
+	}
+</script>
+</html>
